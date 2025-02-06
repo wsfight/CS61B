@@ -4,8 +4,8 @@ public class chapter03 {
     /**
      * simple intList complement
      * 感觉更像一个链表的结点
-     * @param first_: 该结点的值
-     * @param next_: 指向的下一个结点
+     * @param:first_ 该结点的值
+     * @param:next_ 指向的下一个结点
      * */
     public static class IntList{
         public int first_;
@@ -27,8 +27,8 @@ public class chapter03 {
             return size;
         }
         /**
-         * @param i为索引,i从0开始,i>=o
-         * @return 第i个结点的值
+         * @param:i为索引,i从0开始,i>=o
+         * @return: 第i个结点的值
          * */
         public int get(int i) throws Exception {
             int ret;
