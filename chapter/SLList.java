@@ -11,8 +11,8 @@ public class SLList {
      * 简单的构造函数
      */
     public SLList(int x) {
-        IntNode p = new IntNode(x, null)
-        head_ = new IntNode(-255,p );
+        IntNode p = new IntNode(x, null);
+        head_ = new IntNode(-255, p);
         last_ = p;
         ++size_;
     }
@@ -27,8 +27,8 @@ public class SLList {
      * 头插法加入元素.
      */
     public void addFirst(int x) {
-        IntNode p = new IntNode(x,head_.next_);
-        if(size_ == 0){
+        IntNode p = new IntNode(x, head_.next_);
+        if (size_ == 0) {
             last_ = p;
         }
         ++size_;
@@ -46,7 +46,7 @@ public class SLList {
      * 尾插法
      */
     public void addLast(int x) {
-        IntNode p = new IntNode(x,null);
+        IntNode p = new IntNode(x, null);
         last_.next_ = p;
         last_ = p;
         ++size_;
